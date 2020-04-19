@@ -1,4 +1,4 @@
-# akb-discord-bot
+# AKB Discord bot
 A Discord bot for AttackerKB
 
 # Hosting
