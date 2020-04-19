@@ -1,5 +1,5 @@
 # AKB Discord bot
-A Discord bot for AttackerKB
+A Discord bot to browse AttackerKB.
 
 # Hosting
 The bot will soon be a public bot, hosted by myself.
