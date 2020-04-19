@@ -14,3 +14,6 @@ query <keywords>  | Search topics using keywords.
 topic <id>        | Get a topic by its unique ID.
 user <username>   | Get a user's profile by its username.
 ```
+
+# Credits
+Thanks to @kevthehermit for helping me simplify my tool using his [python library](https://github.com/kevthehermit/attackerkb-api)!
