@@ -19,4 +19,4 @@ user <username>   | Get a user's profile by its username.
 Thanks to @kevthehermit for helping me simplify my tool using his [python library](https://github.com/kevthehermit/attackerkb-api)!
 
 # Related projects
-[AttackerKB-Explorer](https://github.com/horshark/akb-explorer)
+* [AttackerKB-Explorer](https://github.com/horshark/akb-explorer)
