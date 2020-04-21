@@ -4,6 +4,27 @@ A Discord bot to browse AttackerKB.
 # Hosting
 The bot will soon be a public bot, hosted by myself.
 
+# Deployment
+## Run from command line
+```bash
+# set enviroment variables
+export AKB_TOKEN="xxxxxxxxxxxxxxxxxxx"
+export AKB_API_KEY="xxxxxxxxxxxxxxxxxxx"
+python main.py
+```
+
+## 🐳 Running with Docker
+First build the image
+```bash
+docker build -t akb-discord-bot .
+```
+
+Then run the container placing in your discord token and AKB api key in the --env vars.
+```bash
+docker run --rm --env DISCORD_TOKEN='' --env AKB_API_KEY='' akb-d
+iscord-bot
+```
+
 # Commands
 ```
 help              | Get help.
