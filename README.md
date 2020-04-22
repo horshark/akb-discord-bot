@@ -3,6 +3,18 @@ A Discord bot to browse AttackerKB.
 
 # Hosting
 The bot will soon be a public bot, hosted by myself.
+If you really want to deploy it youself, instructions are at the bottom.
+
+# Commands
+```
+help              | Get help.
+assessment  <id>  | Get an assessment by its unique ID.
+cve <id>          | Get a CVE by its code. (CVE-YEAR-XXXX)
+ping              | Pong!
+query <keywords>  | Search topics using keywords.
+topic <id>        | Get a topic by its unique ID.
+user <username>   | Get a user's profile by its username.
+```
 
 # Deployment
 ## Run from command line
@@ -21,23 +33,12 @@ docker build -t akb-discord-bot .
 
 Then run the container placing in your discord token and AKB api key in the --env vars.
 ```bash
-docker run --rm --env DISCORD_TOKEN='' --env AKB_API_KEY='' akb-d
-iscord-bot
-```
-
-# Commands
-```
-help              | Get help.
-assessment  <id>  | Get an assessment by its unique ID.
-cve <id>          | Get a CVE by its code. (CVE-YEAR-XXXX)
-ping              | Pong!
-query <keywords>  | Search topics using keywords.
-topic <id>        | Get a topic by its unique ID.
-user <username>   | Get a user's profile by its username.
+docker run --rm --env DISCORD_TOKEN='' --env AKB_API_KEY='' akb-discord-bot
 ```
 
 # Credits
 Thanks to @kevthehermit for helping me simplify my tool using his [python library](https://github.com/kevthehermit/attackerkb-api)!
+Also, thank you to @Sam-Lane for the Docker implementation.
 
 # Related projects
 * [AttackerKB-Explorer](https://github.com/horshark/akb-explorer)
