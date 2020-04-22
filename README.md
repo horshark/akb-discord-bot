@@ -2,8 +2,13 @@
 A Discord bot to browse AttackerKB.
 
 # Hosting
-The bot will soon be a public bot, hosted by myself.
+No need to host it yourself! 
+The bot can be invited using [this link](https://discordapp.com/api/oauth2/authorize?client_id=701046523387183165&permissions=117760&scope=bot).
 If you really want to deploy it youself, instructions are at the bottom.
+
+## Why is the code on Github
+So you guys can know what is running on your server and also so anyone can contribute.
+
 
 # Commands
 ```
