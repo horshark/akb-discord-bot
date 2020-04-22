@@ -42,8 +42,8 @@ docker run --rm --env DISCORD_TOKEN='' --env AKB_API_KEY='' akb-discord-bot
 ```
 
 # Credits
-Thanks to @kevthehermit for helping me simplify my tool using his [python library](https://github.com/kevthehermit/attackerkb-api)!
-Also, thank you to @Sam-Lane for the Docker implementation.
+* Thanks to @kevthehermit for helping me simplify my tool using his [python library](https://github.com/kevthehermit/attackerkb-api)!
+* Also, thank you to @Sam-Lane for the Docker implementation.
 
 # Related projects
 * [AttackerKB-Explorer](https://github.com/horshark/akb-explorer)
