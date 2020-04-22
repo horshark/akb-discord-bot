@@ -1,5 +1,7 @@
-import discord, json
+import os
+import json
 
+import discord
 from discord.ext import commands
 from attackerkb_api import AttackerKB
 
@@ -9,12 +11,14 @@ import utils.printer as printer
 queryMaxTopics = 5
 error = "Sorry, I could not find anything for this {}!"
 
-# Tokens and api keys.
-token_file = "token.txt"
-api_key_file = "api.txt"
+token = os.environ.get('DISCORD_TOKEN')
+api_key = os.environ.get('AKB_API_KEY')
 
-token = open(token_file).readline()
-api_key = open(api_key_file).readline()
+if token == None or api_key == None:
+    # if enviroment variables have not been set
+    # stop execution
+    print("DISCORD_TOKEN or AKB_API_KEY enviroment variables have not been set")
+    exit(1)
 
 # Setting up the bot and prefix.
 prefix = "!akb "
