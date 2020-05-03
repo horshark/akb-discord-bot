@@ -1,7 +1,7 @@
 # AKB Discord bot
 A Discord bot to browse AttackerKB.
 
-# Hosting
+# Inviting the bot
 No need to host it yourself! 
 The bot can be invited using [this link](https://discordapp.com/api/oauth2/authorize?client_id=701046523387183165&permissions=117760&scope=bot).
 If you really want to deploy it youself, instructions are at the bottom.
@@ -22,6 +22,8 @@ user <username>   | Get a user's profile by its username.
 ```
 
 # Deployment
+If you want to deploy another instance of the bot for whatever reason, here is how to.
+
 ## Run from command line
 ```bash
 # set enviroment variables
